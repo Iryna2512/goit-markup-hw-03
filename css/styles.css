@@ -4,9 +4,113 @@ body {
     background-color: #FFF;
 }
 
+h2 {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.list>li,
+.list-portfolio>li {
+    background-color: #FFFFFF;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+/*========header========*/
 .menu-header {
     background-color: #FFFFFF;
 }
+
+.menu-header-logo,
+.logo-footer {
+    color: #4D5AE5;
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.accent {
+    color: #2E2F42;
+}
+
+.menu-header-link {
+    text-decoration: none;
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
+
+.menu-header-link:hover,
+.menu-header-link:active,
+.menu-header-link:focus {
+    color: #404BBF;
+}
+
+.info {
+    font-style: normal;
+}
+
+.menu-info-link {
+    text-decoration: none;
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-info-link:hover,
+.menu-info-link:active,
+.menu-info-link:focus {
+    color: #404BBF;
+}
+
+/*=============================*/
+
+/*===========banner=============*/
 
 .banner {
     color: #FFFFFF;
@@ -26,7 +130,7 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
 }
 
 .button:hover,
@@ -35,95 +139,25 @@ body {
     background-color: #404BBF;
 }
 
-.menu-logo,
-.logo-footer {
-    color: #4D5AE5;
-    text-decoration: none;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-}
-
-.accent {
-    color: #2E2F42;
-}
-
-.menu-link {
-    text-decoration: none;
-    color: #2E2F42;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    font-style: normal;
-}
-
-.menu-link:hover,
-.menu-link:active,
-.menu-link:focus {
-    color: #404BBF;
-}
-
-.info {
-    font-style: normal;
-}
-
-.menu-info-link {
-    text-decoration: none;
-    color: #434455;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-}
-
 .section-banner {
     background-color: #2E2F42;
 }
 
+/*=====================*/
 
-.menu-info-link:hover,
-.menu-info-link:active,
-.menu-info-link:focus {
-    color: #404BBF;
+
+/*========section-our-team===========*/
+.section-our-team {
+    background-color: #F4F4FD;
 }
 
-h2 {
-    color: #2E2F42;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-    text-align: center;
-}
+/*========================*/
 
-h3 {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.4px;
-}
 
-.list>li,
-.list-portfolio>li {
-    background-color: #FFFFFF;
-}
 
-p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-}
 
-ul {
-    list-style-type: none;
-}
+/*=========footer=======*/
+
 
 .section-footer {
     background-color: #2E2F42;
@@ -137,14 +171,12 @@ ul {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.section-our-team {
-    background-color: #F4F4FD;
 }
 
 .logo-footer .accent {
     color: #F4F4FD;
 }
+
+/*==========================*/
