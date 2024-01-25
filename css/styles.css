@@ -153,12 +153,6 @@ ul {
     padding-bottom: 188px;
 }
 
-/*.banner-container {
-    padding-top: 188px;
-    padding-left: 472px;
-    padding-right: 472px;
-    padding-bottom: 188px;
-}*/
 
 .banner {
     color: #FFFFFF;
@@ -194,10 +188,11 @@ ul {
     background-color: #404BBF;
 }
 
-
-
 /*=====================*/
+
+
 /*========sectoin-titel-list=======*/
+
 .sectoin-titel-list {
     display: flex;
     padding-top: 120px;
@@ -211,6 +206,12 @@ ul {
     background-color: #F4F4FD;
     padding-top: 232px;
     padding-bottom: 120px;
+}
+
+.list {
+    display: flex;
+    width: calc((100% - 72px) / 4);
+    gap: 24px;
 }
 
 /*========================*/
