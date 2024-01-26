@@ -204,6 +204,8 @@ img {
     margin: 0 auto;
     border: none;
     padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .button:hover,
