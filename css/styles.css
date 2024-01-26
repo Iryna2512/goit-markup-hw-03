@@ -103,6 +103,8 @@ img {
 .menu-header-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-info-list {
@@ -130,9 +132,6 @@ img {
     color: #2E2F42;
 }
 
-.menu-header-item {
-    padding: 24px 0 24px;
-}
 
 .menu-header-link {
     text-decoration: none;
@@ -207,8 +206,7 @@ img {
     margin: 0 auto;
     border: none;
     padding: 16px 32px;
-    align-items: flex-start;
-    gap: 10px;
+    max-width: 196px;
 }
 
 .button:hover,
