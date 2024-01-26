@@ -100,11 +100,14 @@ img {
     align-items: center;
 }
 
+.menu-header-item {
+    display: block;
+    padding: 24px 0 24px;
+}
+
 .menu-header-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .menu-info-list {
@@ -192,21 +195,20 @@ img {
 }
 
 .button {
-    display: block;
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
     font-family: Roboto, sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    display: block;
     border-radius: 4px;
-    margin: 0 auto;
+    margin: auto;
     border: none;
-    padding: 16px 32px;
     max-width: 169px;
+    height: 56px;
 }
 
 .button:hover,
