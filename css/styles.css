@@ -92,6 +92,31 @@ ul {
     padding-bottom: 24px;
 }
 
+.header-container {
+    display: flex;
+}
+
+.menu-header-navigation {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.menu-header-list {
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+}
+
+.menu-info-list {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-header-logo {
+    align-items: center;
+}
+
 .menu-header-logo,
 .logo-footer {
     color: #4D5AE5;
@@ -193,40 +218,70 @@ ul {
 
 /*========sectoin-titel-list=======*/
 
-.sectoin-titel-list {
-    display: flex;
+.section-no-title {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.sectoin-titel-list {
+    display: flex;
     gap: 24px;
+}
+
+.section-title-item {
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 
 /*========section-our-team===========*/
+
 .section-our-team {
     background-color: #F4F4FD;
-    padding-top: 232px;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 
 .list {
     display: flex;
-    width: calc((100% - 72px) / 4);
+    padding-top: 72px;
+    flex-basis: calc((100% - 72px) / 4);
     gap: 24px;
+    max-width: 1128px;
+}
+
+
+
+.our-title {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.our-text {
+    margin-top: 8px;
+    padding-bottom: 32px;
+    text-align: center;
 }
 
 /*========================*/
 
-/*===========section-Our-Portfolio=====*/
+/*====section-Our-Portfolio=====*/
+
 .section-Our-Portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
 .list-portfolio {
+    display: flex;
     margin-top: 72px;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    flex-basis: calc((100% - 72px) / 3);
 }
 
-/*===============================*/
+/*==============================*/
+
+
 /*=========footer=======*/
 
 
@@ -253,6 +308,7 @@ ul {
 
 .copyright-text {
     padding-top: 18px;
+    max-width: 264px;
 }
 
 /*==========================*/
