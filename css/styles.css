@@ -273,6 +273,7 @@ img {
 .list-foto {
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 
@@ -319,6 +320,10 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+    flex-basis: calc((100% - 72px) / 3);
+}
+
+.list-foto-portfolio {
     flex-basis: calc((100% - 72px) / 3);
 }
 
