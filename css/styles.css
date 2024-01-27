@@ -265,7 +265,6 @@ img {
 
 .list {
     display: flex;
-    flex-basis: calc((100% - 72px) / 4);
     gap: 24px;
     max-width: 1128px;
 }
@@ -320,8 +319,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    flex-basis: calc((100% - 72px) / 3);
-}
+   }
 
 .list-foto-portfolio {
     flex-basis: calc((100% - 72px) / 3);
